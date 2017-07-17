@@ -1,0 +1,31 @@
+#cilent-logo .thumbnail {
+	float: left;
+	width: 31.61290%;
+	padding-right: 3px;
+	text-align: center;
+}
+#cilent-logo .thumbnail .gallery {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    height: 114px;
+    line-height: 1.42857;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 4px;
+    transition: border 0.2s ease-in-out 0s;
+}
+#cilent-logo .thumbnail .gallery img {
+	height: 68px;
+}
+@media only screen and (max-width: 985px) {
+	#cilent-logo .thumbnail {
+		width: 32.28438%;
+	}
+}
+@media only screen and (max-width: 368px) {
+	#cilent-logo .thumbnail {
+		width: 49.00990%;
+	}
+}
